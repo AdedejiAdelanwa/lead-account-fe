@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Leadway User Transactions Frontend
 
-## Getting Started
+This is a Frontend web application built with Nextjs that helps users do the following:
 
-First, run the development server:
+1. Create an account,
+2. Fund the account
+3. Transfer fund to other account users
+4. See the history of their transactions
+
+## Project setup
+
+- Clone/download this repository file and `cd` into it (`cd lead-account-fe`) and run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run the project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# development
+$ npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# production mode
+$ npm run start:prod
+```
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+![Create Account](img/create-account.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Login](img/login.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Transactions](img/transactions.png)
+![Transfer](img/transfer.png)
 
-## Deploy on Vercel
+## Resources
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out a few resources that may come in handy when working with Nextjs:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [NextJS](https://nextjs.org/)
+- [ChakraUi](https://v2.chakra-ui.com/)
+- [cookies-next](https://www.npmjs.com/package/cookies-next)
+- [Axios](https://axios-http.com/docs/intro)
+
+## Stay in touch
+
+- Author - [Adedeji Adelanwa](https://github.com/adedejiadelanwa)
+
+## License
+
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
